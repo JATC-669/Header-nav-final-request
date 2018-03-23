@@ -1,0 +1,10 @@
+
+<script type="application/javascript">
+
+    // in order for the request final link in the header nav of the testing site to work, you have to grab the id number Moodle assigns to a user and append it to the link
+    // This code is pasted into the HTML block on https://jatc669.wccnet.edu/admin/settings.php?section=additionalhtml
+    // This grabs the URL from the Final Request Block and adds it to the link in the header
+
+    var stuReqFinal = document.getElementsByClassName('block_wcc_request_final  block')[0].childNodes[1].childNodes[0].childNodes[0].getAttribute('href')
+    document.getElementsByClassName('nav')[0].childNodes[1].childNodes[0].setAttribute('href', stuReqFinal)
+</script>
