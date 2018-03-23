@@ -7,4 +7,4 @@
 
     var stuReqFinal = document.getElementsByClassName('block_wcc_request_final  block')[0].childNodes[1].childNodes[0].childNodes[0].getAttribute('href')
     document.getElementsByClassName('nav')[0].childNodes[1].childNodes[0].setAttribute('href', stuReqFinal)
-</script>
+</script>   
